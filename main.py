@@ -1,5 +1,9 @@
+import pandas as pd
+
 def main():
-    print("Hello, world!")
+    nba = pd.read_csv("all_seasons.csv")
+
+    print(nba.head())
 
 if __name__ == "__main__":
     main()
