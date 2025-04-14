@@ -1,0 +1,357 @@
+Louisiana State,"['HOU', 'LAL', 'LAC', 'SAC', 'ATL', 'MIN', 'PHX', 'PHI', 'VAN', 'GSW', 'SEA', 'MEM', 'NOH', 'CHI', 'UTA', 'MIA', 'DET', 'NJN', 'NOK', 'BOS', 'DAL', 'ORL', 'CLE', 'SAS', 'CHA', 'POR', 'TOR', 'DEN', 'WAS', 'BKN', 'MIL', 'NOP']"
+Northwestern Oklahoma,['WAS']
+North Carolina,"['VAN', 'NJN', 'PHI', 'MIL', 'DEN', 'TOR', 'BOS', 'SEA', 'SAC', 'POR', 'CHI', 'LAL', 'CHH', 'DAL', 'DET', 'GSW', 'IND', 'ATL', 'WAS', 'LAC', 'CLE', 'PHX', 'NOH', 'CHA', 'MIN', 'ORL', 'MIA', 'SAS', 'NYK', 'BKN', 'MEM', 'UTA', 'OKC']"
+Florida State,"['LAL', 'NYK', 'NJN', 'CLE', 'LAC', 'PHX', 'MIL', 'WAS', 'DAL', 'DEN', 'GSW', 'SAS', 'ATL', 'MIN', 'HOU', 'MEM', 'POR', 'MIA', 'BOS', 'TOR', 'ORL', 'OKC', 'SAC', 'NOP', 'CHA', 'UTA', 'CHI', 'BKN']"
+UCLA,"['DEN', 'NJN', 'PHI', 'DAL', 'LAC', 'SAC', 'WAS', 'IND', 'POR', 'CLE', 'BOS', 'DET', 'GSW', 'SEA', 'VAN', 'PHX', 'CHH', 'MIA', 'TOR', 'LAL', 'MIL', 'NOH', 'MEM', 'MIN', 'NYK', 'CHA', 'ATL', 'ORL', 'OKC', 'HOU', 'UTA', 'NOP', 'SAS', 'CHI', 'BKN']"
+Tennessee-Chattanooga,"['ORL', 'DEN', 'BOS', 'MIN']"
+nan,"['WAS', 'POR', 'BOS', 'MIN', 'DAL', 'DEN', 'CHH', 'TOR', 'CHI', 'PHI', 'LAL', 'PHX', 'CLE', 'LAC', 'NJN', 'IND', 'SAC', 'SEA', 'DET', 'MIL', 'UTA', 'ATL', 'ORL', 'MEM', 'SAS', 'MIA', 'HOU', 'GSW', 'NYK', 'NOH', 'CHA', 'NOK', 'OKC', 'BKN', 'NOP']"
+Michigan,"['CHH', 'MIA', 'DEN', 'IND', 'WAS', 'POR', 'DET', 'LAC', 'DAL', 'LAL', 'BOS', 'SAC', 'MIL', 'CHI', 'NYK', 'HOU', 'CLE', 'TOR', 'NOH', 'ORL', 'PHI', 'CHA', 'NJN', 'PHX', 'GSW', 'ATL', 'MEM', 'UTA', 'OKC', 'BKN', 'MIN']"
+Purdue,"['MIL', 'TOR', 'SEA', 'WAS', 'CHH', 'PHX', 'DET', 'CHI', 'IND', 'ATL', 'SAC', 'PHI', 'GSW', 'MEM', 'SAS', 'HOU', 'MIN', 'DAL', 'NOH', 'BOS', 'ORL', 'NOP', 'POR']"
+Duke,"['DET', 'ATL', 'MIN', 'CLE', 'SAC', 'MIA', 'VAN', 'ORL', 'PHI', 'CHI', 'LAC', 'WAS', 'SAS', 'MEM', 'GSW', 'UTA', 'IND', 'HOU', 'PHX', 'POR', 'DEN', 'NYK', 'BOS', 'CHA', 'MIL', 'NOH', 'LAL', 'NJN', 'DAL', 'NOP', 'BKN', 'OKC', 'TOR']"
+Ohio,"['POR', 'TOR', 'DAL', 'MIN', 'BOS', 'ORL', 'LAC']"
+Eastern Michigan,"['DET', 'CLE', 'ATL', 'VAN', 'SAS', 'LAC', 'MEM', 'TOR', 'BOS', 'GSW', 'DEN', 'ORL', 'MIL', 'CHA', 'WAS', 'HOU']"
+Nevada-Las Vegas,"['VAN', 'SEA', 'NJN', 'POR', 'PHX', 'NYK', 'MIL', 'LAC', 'DEN', 'UTA', 'ATL', 'LAL', 'TOR', 'WAS', 'CHH', 'SAC', 'NOH', 'BOS', 'ORL', 'MIN', 'PHI', 'MIA', 'DAL', 'GSW', 'IND', 'CLE', 'CHI', 'DET', 'CHA', 'BKN', 'SAS']"
+Kansas,"['DAL', 'UTA', 'PHX', 'ATL', 'PHI', 'MIA', 'DET', 'MIL', 'BOS', 'DEN', 'SAC', 'ORL', 'IND', 'CHI', 'SEA', 'NJN', 'CLE', 'WAS', 'GSW', 'POR', 'SAS', 'NOH', 'MEM', 'OKC', 'LAC', 'TOR', 'CHA', 'HOU', 'BKN', 'NOP', 'NYK', 'LAL', 'MIN']"
+Texas-El Paso,"['UTA', 'MIA', 'IND', 'TOR', 'SEA', 'LAL', 'DEN', 'MIL', 'CHI', 'CHA', 'MEM']"
+Indiana,"['SEA', 'ORL', 'WAS', 'MIN', 'ATL', 'DEN', 'NJN', 'CLE', 'BOS', 'CHI', 'CHH', 'GSW', 'NOH', 'UTA', 'DAL', 'PHI', 'NYK', 'OKC', 'LAC', 'HOU', 'CHA', 'POR', 'NOP', 'TOR', 'LAL', 'IND', 'SAC', 'MIA', 'BKN', 'SAS']"
+Louisville,"['BOS', 'GSW', 'TOR', 'DAL', 'MIN', 'VAN', 'PHX', 'SAS', 'NYK', 'SEA', 'LAL', 'MIA', 'ORL', 'MIL', 'WAS', 'IND', 'SAC', 'NJN', 'HOU', 'CLE', 'DET', 'MEM', 'BKN', 'CHA', 'LAC', 'ATL', 'UTA', 'PHI', 'CHI']"
+Houston,"['HOU', 'SAS', 'LAC', 'DEN', 'VAN', 'ORL', 'ATL', 'BOS', 'GSW', 'DAL', 'MIA', 'TOR', 'DET', 'PHX', 'SAC', 'WAS', 'MIL', 'MEM', 'NJN', 'UTA', 'CLE', 'IND', 'NYK', 'PHI']"
+Oklahoma,"['WAS', 'DAL', 'PHX', 'ATL', 'HOU', 'NYK', 'PHI', 'GSW', 'VAN', 'SAC', 'DEN', 'NJN', 'CHA', 'LAC', 'DET', 'BKN', 'IND', 'LAL', 'BOS']"
+Oral Roberts,"['IND', 'MIL', 'TOR', 'WAS', 'NJN']"
+Oregon State,"['SEA', 'LAC', 'DAL', 'MIA', 'CHI', 'LAL', 'ATL', 'MIL', 'SAS', 'BOS', 'HOU', 'SAC', 'CLE', 'MEM', 'DET', 'WAS', 'TOR', 'GSW', 'POR']"
+Brigham Young,"['DAL', 'ATL', 'TOR', 'UTA', 'SAC', 'CHI', 'PHI', 'NOP', 'SAS', 'PHX', 'MIL']"
+Washington,"['ATL', 'SEA', 'LAC', 'CHH', 'PHI', 'POR', 'NJN', 'NYK', 'DEN', 'SAC', 'BOS', 'HOU', 'MIL', 'NOH', 'OKC', 'TOR', 'GSW', 'MEM', 'MIN', 'CHI', 'DAL', 'CLE', 'NOP', 'CHA', 'PHX', 'ORL', 'SAS', 'LAL', 'WAS', 'IND', 'DET']"
+Memphis,"['MIL', 'ORL', 'DEN', 'LAC', 'POR', 'NJN', 'CLE', 'TOR', 'ATL', 'PHX', 'GSW', 'MEM', 'NYK', 'MIA', 'PHI', 'IND', 'SAS', 'SAC', 'HOU', 'CHI', 'DAL', 'MIN', 'OKC', 'CHA', 'LAL', 'NOP', 'DET', 'BKN']"
+Notre Dame,"['DEN', 'CHH', 'SAS', 'MIL', 'TOR', 'PHX', 'ATL', 'ORL', 'MIN', 'GSW', 'MIA', 'PHI', 'MEM', 'CHA', 'IND', 'DAL', 'NJN', 'BOS', 'CLE', 'LAL', 'UTA', 'NYK', 'POR', 'CHI', 'SAC', 'WAS']"
+Delaware State,"['HOU', 'SEA', 'ATL']"
+Alabama,"['POR', 'MIN', 'CHI', 'IND', 'MIA', 'LAL', 'VAN', 'GSW', 'DEN', 'TOR', 'PHX', 'ORL', 'LAC', 'NYK', 'MIL', 'UTA', 'SAC', 'PHI', 'SAS', 'DET', 'CHA', 'CLE', 'WAS', 'NJN', 'BKN', 'BOS', 'MEM', 'NOP']"
+Wyoming,"['VAN', 'DET', 'TOR', 'MIL', 'PHI', 'MIN', 'ATL', 'POR', 'PHX', 'BOS', 'SAC', 'HOU', 'CHA', 'LAL', 'MEM', 'CLE', 'NOP']"
+Pittsburgh,"['VAN', 'SAS', 'HOU', 'GSW', 'BOS', 'PHI', 'MIN', 'CHI', 'MIA', 'MEM', 'NOH', 'TOR', 'IND', 'DAL', 'OKC', 'SAC', 'WAS', 'ATL', 'ORL', 'CHA', 'NOP']"
+Providence,"['DEN', 'BOS', 'CHI', 'DET', 'SAC', 'VAN', 'MIA', 'IND', 'WAS', 'NJN', 'LAC', 'CHH', 'GSW', 'ATL', 'CLE', 'TOR', 'DAL', 'CHA', 'MIN', 'SAS', 'BKN', 'OKC', 'LAL', 'NYK', 'UTA', 'MEM', 'POR']"
+Nebraska,"['LAC', 'DAL', 'CHH', 'LAL', 'DET', 'GSW', 'VAN', 'WAS', 'BOS', 'ATL', 'IND', 'MIL', 'HOU', 'ORL', 'UTA', 'CHI', 'SEA', 'NJN', 'PHX', 'SAC', 'TOR', 'CHA', 'NYK']"
+Michigan State,"['SEA', 'SAS', 'TOR', 'ATL', 'HOU', 'CHI', 'DAL', 'MIL', 'PHI', 'PHX', 'NJN', 'POR', 'DET', 'DEN', 'SAC', 'GSW', 'NOH', 'CLE', 'MIA', 'CHA', 'LAC', 'NYK', 'LAL', 'WAS', 'MEM', 'ORL', 'MIN', 'OKC', 'BKN', 'UTA']"
+Mississippi State,"['IND', 'BOS', 'GSW', 'MIA', 'DAL', 'MEM', 'NJN', 'ATL', 'PHI', 'SAS', 'BKN', 'SAC', 'WAS', 'POR']"
+New Orleans,"['DEN', 'CHH', 'WAS', 'MIL', 'MIN']"
+Penn State,"['BOS', 'ORL', 'WAS', 'DAL', 'UTA', 'PHX', 'SEA', 'MIL', 'PHI', 'SAC', 'DET', 'MEM', 'CLE']"
+Western Carolina,"['PHI', 'SAC', 'HOU', 'OKC', 'MIN', 'SAS']"
+Iowa State,"['IND', 'SAC', 'UTA', 'PHX', 'POR', 'GSW', 'DEN', 'HOU', 'CHI', 'DET', 'ATL', 'MIN', 'MIL', 'ORL', 'NOH', 'NOK', 'NYK', 'LAC', 'MEM', 'PHI', 'BOS', 'NOP', 'OKC', 'LAL', 'TOR', 'WAS']"
+St. Mary's (TX),"['ATL', 'CLE']"
+Clemson,"['LAL', 'ORL', 'WAS', 'IND', 'SAS', 'TOR', 'CHH', 'DAL', 'SEA', 'MIA', 'HOU', 'POR', 'MEM', 'LAC', 'PHI', 'DET', 'DEN', 'PHX', 'MIN', 'SAC', 'UTA', 'BKN', 'OKC', 'CLE']"
+Ohio State,"['NYK', 'NJN', 'SAC', 'GSW', 'POR', 'TOR', 'ATL', 'CLE', 'MIL', 'MIA', 'HOU', 'CHI', 'PHX', 'LAL', 'MEM', 'UTA', 'OKC', 'DEN', 'PHI', 'CHA', 'BOS', 'IND', 'BKN', 'MIN', 'SAS']"
+Georgetown,"['DET', 'WAS', 'ATL', 'SEA', 'NJN', 'HOU', 'NYK', 'PHI', 'MIA', 'SAS', 'VAN', 'TOR', 'ORL', 'POR', 'PHX', 'CHI', 'CHA', 'DEN', 'OKC', 'IND', 'BOS', 'NOH', 'DAL', 'LAC', 'MEM', 'MIL', 'BKN', 'LAL', 'NOP', 'CLE', 'MIN', 'GSW']"
+Marquette,"['SEA', 'CHH', 'ORL', 'MIL', 'ATL', 'NJN', 'SAS', 'PHI', 'MIA', 'HOU', 'IND', 'LAC', 'POR', 'UTA', 'MIN', 'CHI', 'OKC', 'NYK', 'LAL', 'DAL', 'TOR', 'BOS', 'PHX', 'DET', 'BKN', 'GSW', 'DEN']"
+Virginia Tech,"['MIL', 'CHH', 'GSW', 'ATL', 'TOR', 'CLE', 'BOS', 'MIA', 'PHX', 'DEN', 'WAS', 'CHI', 'NOP', 'UTA', 'DET', 'MIN']"
+Southern Mississippi,"['SAS', 'PHI', 'GSW', 'MIA', 'DEN', 'CLE', 'NYK', 'HOU']"
+McNeese State,"['DET', 'HOU', 'CLE', 'NOH', 'LAL']"
+Longwood,"['LAL', 'SEA', 'SAS', 'MIL']"
+Arkansas,"['NJN', 'SAC', 'BOS', 'VAN', 'TOR', 'MIL', 'MIA', 'CHH', 'CHI', 'PHX', 'POR', 'NYK', 'DET', 'MIN', 'LAL', 'ATL', 'UTA', 'NOK', 'NOH', 'CHA', 'DEN', 'OKC', 'MEM', 'HOU', 'BKN', 'WAS', 'DAL', 'LAC', 'PHI', 'GSW']"
+Arkansas-Little Rock,"['HOU', 'LAL', 'NYK', 'VAN', 'GSW', 'UTA', 'OKC', 'CLE', 'PHI', 'MIL']"
+Virginia,"['MIA', 'SAS', 'DEN', 'SAC', 'POR', 'SEA', 'UTA', 'DET', 'BOS', 'ORL', 'CLE', 'CHI', 'TOR', 'LAC', 'CHA', 'WAS', 'NYK', 'NOH', 'ATL', 'DAL', 'PHI', 'MIL', 'BKN', 'OKC', 'PHX', 'IND', 'LAL', 'NOP', 'GSW']"
+Detroit Mercy,"['TOR', 'DET', 'ATL', 'POR', 'PHI', 'NYK', 'MIL', 'NOH', 'LAC', 'SAC', 'ORL', 'SAS', 'PHX']"
+Oklahoma State,"['NYK', 'DEN', 'VAN', 'GSW', 'CHI', 'UTA', 'SEA', 'MIL', 'POR', 'BOS', 'CLE', 'HOU', 'TOR', 'SAS', 'NOK', 'PHI', 'IND', 'OKC', 'CHA', 'SAC', 'LAC', 'MEM', 'NJN', 'MIA', 'NOH', 'BKN', 'DET', 'MIN', 'NOP']"
+Gonzaga,"['UTA', 'ATL', 'POR', 'SEA', 'NOH', 'LAL', 'HOU', 'BOS', 'CHA', 'LAC', 'GSW', 'DET', 'NYK', 'MEM', 'MIA', 'PHI', 'SAS', 'MIN', 'SAC', 'OKC', 'IND', 'WAS', 'ORL', 'CLE']"
+Syracuse,"['NYK', 'ORL', 'PHI', 'MIL', 'VAN', 'CHH', 'SAC', 'WAS', 'NJN', 'TOR', 'SEA', 'LAC', 'GSW', 'DET', 'SAS', 'PHX', 'DEN', 'MIA', 'CHA', 'MEM', 'CHI', 'UTA', 'OKC', 'NOH', 'MIN', 'ATL', 'POR', 'CLE', 'BOS', 'BKN', 'NOP', 'LAL', 'IND', 'HOU']"
+Richmond,"['MIL', 'DEN', 'CLE', 'NJN', 'DAL', 'ORL', 'BKN', 'PHI', 'MEM']"
+Georgia Tech,"['ATL', 'IND', 'ORL', 'MIN', 'DEN', 'POR', 'GSW', 'CHH', 'BOS', 'VAN', 'LAL', 'PHX', 'SEA', 'NJN', 'SAC', 'PHI', 'HOU', 'CLE', 'CHI', 'DET', 'UTA', 'NOH', 'MIA', 'TOR', 'NYK', 'DAL', 'LAC', 'SAS', 'MEM', 'WAS', 'NOP', 'OKC', 'BKN']"
+Maryland,"['GSW', 'NYK', 'TOR', 'NJN', 'VAN', 'POR', 'CHI', 'PHI', 'MIN', 'WAS', 'HOU', 'DET', 'DAL', 'LAC', 'MEM', 'UTA', 'MIL', 'SAC', 'ATL', 'NOH', 'SAS', 'ORL', 'IND', 'CHA', 'LAL', 'SEA', 'DEN', 'PHX', 'CLE', 'BOS', 'BKN', 'OKC']"
+Pennsylvania,"['DEN', 'HOU', 'CHI', 'PHI', 'ATL']"
+Grand Canyon,['PHX']
+Tulane,"['PHX', 'MIL', 'DAL', 'PHI', 'CHI', 'SAS', 'NOK', 'TOR', 'ORL', 'HOU', 'OKC']"
+Boston College,"['UTA', 'BOS', 'MIN', 'GSW', 'DAL', 'DET', 'NYK', 'PHX', 'MEM', 'DEN', 'CHA', 'NJN', 'LAC', 'POR', 'OKC', 'MIL', 'WAS', 'BKN', 'LAL']"
+Arizona State,"['MIA', 'LAL', 'DAL', 'BOS', 'POR', 'LAC', 'ORL', 'CHI', 'WAS', 'VAN', 'MEM', 'NJN', 'SAC', 'GSW', 'PHX', 'IND', 'MIL', 'NYK', 'OKC', 'SAS', 'HOU', 'CLE', 'NOP', 'BKN', 'PHI']"
+Kentucky,"['MIA', 'PHX', 'NYK', 'CHH', 'BOS', 'IND', 'GSW', 'CLE', 'ATL', 'PHI', 'SAC', 'UTA', 'ORL', 'LAC', 'MIL', 'SAS', 'CHI', 'POR', 'DET', 'NOH', 'DAL', 'HOU', 'DEN', 'CHA', 'NJN', 'MEM', 'MIN', 'WAS', 'OKC', 'TOR', 'LAL', 'BKN', 'NOP']"
+St. John's (NY),"['MIA', 'NJN', 'GSW', 'CLE', 'LAC', 'IND', 'CHI', 'DET', 'VAN', 'MIN', 'SAC', 'NYK', 'POR', 'SAS', 'DEN', 'UTA', 'TOR', 'PHI', 'HOU', 'MIL', 'LAL', 'ORL']"
+South Carolina,"['DAL', 'CLE', 'MIA', 'NYK', 'MEM', 'DEN', 'OKC', 'LAC', 'BOS', 'NOP', 'SAC', 'ORL']"
+California,"['PHX', 'VAN', 'LAC', 'SAC', 'ATL', 'TOR', 'CLE', 'MIA', 'NJN', 'MIL', 'LAL', 'DEN', 'GSW', 'POR', 'BOS', 'SAS', 'CHA', 'SEA', 'DAL', 'NOH', 'ORL', 'PHI', 'UTA', 'MEM', 'NYK', 'NOP', 'HOU', 'BKN', 'MIN']"
+Texas Tech,"['DAL', 'IND', 'PHI', 'DEN', 'WAS', 'CHI', 'BOS', 'VAN', 'MIA', 'GSW', 'MIL', 'ATL', 'DET', 'CLE', 'ORL', 'MEM', 'NJN', 'MIN', 'PHX', 'SAC', 'LAL', 'NYK']"
+Bradley,"['SEA', 'PHI', 'ORL', 'CHI', 'CHH', 'TOR', 'GSW', 'CLE']"
+Temple,"['LAL', 'SAC', 'MIA', 'DET', 'POR', 'PHI', 'CHH', 'NYK', 'NJN', 'GSW', 'ATL', 'MIN', 'DAL', 'CHI', 'LAC', 'NOK', 'HOU', 'MEM', 'MIL', 'PHX', 'IND']"
+Illinois,"['HOU', 'DAL', 'ATL', 'NJN', 'ORL', 'DEN', 'LAL', 'SAC', 'MIA', 'MEM', 'MIN', 'NYK', 'TOR', 'CHI', 'MIL', 'UTA', 'PHX', 'IND', 'LAC', 'WAS', 'BKN', 'POR', 'CLE']"
+Villanova,"['MIA', 'MIN', 'NJN', 'PHI', 'TOR', 'ORL', 'VAN', 'MIL', 'LAL', 'NYK', 'ATL', 'LAC', 'CHA', 'PHX', 'CHI', 'BOS', 'MEM', 'DAL', 'HOU', 'WAS', 'POR', 'DEN', 'UTA', 'NOP', 'DET', 'OKC', 'BKN', 'SAS', 'GSW', 'SAC']"
+Arizona,"['CLE', 'TOR', 'CHI', 'SAS', 'LAL', 'DAL', 'GSW', 'PHX', 'POR', 'NYK', 'DET', 'VAN', 'HOU', 'ORL', 'ATL', 'LAC', 'NJN', 'MEM', 'SAC', 'MIN', 'WAS', 'MIA', 'PHI', 'MIL', 'BOS', 'DEN', 'BKN', 'IND', 'UTA', 'OKC', 'NOP', 'CHA']"
+Auburn,"['UTA', 'HOU', 'PHX', 'SAS', 'CLE', 'CHH', 'SEA', 'TOR', 'GSW', 'IND', 'ORL', 'MEM', 'DEN', 'ATL', 'DAL', 'LAC', 'NYK', 'BOS', 'MIL', 'NOP', 'CHA']"
+Western Kentucky,"['VAN', 'SAC', 'ORL', 'NJN', 'UTA', 'HOU', 'BOS', 'MEM', 'DAL', 'CHA', 'NYK', 'ATL', 'PHI', 'SAS']"
+North Carolina State,"['MIL', 'SAS', 'GSW', 'MIN', 'SEA', 'ORL', 'ATL', 'CHH', 'UTA', 'PHX', 'CLE', 'MIA', 'SAC', 'DEN', 'DAL', 'NOK', 'CHI', 'LAC', 'LAL', 'POR', 'NJN', 'HOU', 'PHI', 'WAS', 'DET', 'TOR', 'NYK', 'IND', 'CHA', 'NOP']"
+Old Dominion,"['NJN', 'CLE', 'IND', 'MIL', 'ATL', 'PHX', 'DEN', 'MIA', 'GSW', 'LAL', 'SAC']"
+Cincinnati,"['LAL', 'POR', 'DEN', 'CLE', 'SEA', 'PHX', 'BOS', 'NJN', 'SAC', 'ATL', 'GSW', 'DAL', 'PHI', 'CHI', 'TOR', 'NYK', 'DET', 'SAS', 'MIL', 'LAC', 'HOU', 'IND', 'ORL', 'MIN', 'CHA', 'BKN', 'MEM', 'NOP']"
+Washington State,"['SEA', 'PHI', 'SAC', 'NJN', 'MEM', 'OKC', 'UTA', 'GSW', 'SAS', 'DET', 'BOS', 'PHX', 'POR', 'TOR', 'ORL']"
+Tennessee,"['DEN', 'BOS', 'NYK', 'SEA', 'CHH', 'MIL', 'IND', 'GSW', 'SAS', 'CHI', 'ORL', 'BKN', 'CLE', 'MEM', 'DET', 'MIA', 'LAC', 'DAL', 'PHI', 'WAS', 'POR', 'OKC', 'NOP']"
+Connecticut,"['POR', 'CLE', 'GSW', 'LAL', 'MIL', 'ORL', 'BOS', 'CHI', 'PHX', 'NJN', 'PHI', 'WAS', 'UTA', 'NYK', 'CHH', 'IND', 'DET', 'SEA', 'MIA', 'TOR', 'CHA', 'MEM', 'NOK', 'NOH', 'MIN', 'HOU', 'DAL', 'OKC', 'ATL', 'LAC', 'SAC', 'SAS', 'NOP', 'BKN']"
+Yale,"['POR', 'NYK', 'PHX', 'UTA']"
+Boise State,"['NYK', 'WAS', 'GSW', 'TOR', 'NJN', 'LAL', 'BKN', 'CHI', 'PHX']"
+Southern Illinois,"['MIN', 'WAS', 'UTA', 'NJN', 'LAC', 'CHI', 'BOS', 'ORL', 'NYK', 'SAS', 'GSW']"
+Xavier,"['SAC', 'ORL', 'CLE', 'BOS', 'VAN', 'MIL', 'SEA', 'POR', 'PHI', 'CHH', 'WAS', 'DEN', 'MIA', 'NJN', 'LAC', 'HOU', 'NOH', 'MEM', 'LAL', 'TOR', 'PHX', 'NOK', 'CHA', 'IND', 'NYK', 'GSW', 'SAS', 'OKC', 'NOP', 'BKN']"
+California-Santa Barbara,"['ORL', 'PHI', 'POR', 'LAL', 'IND', 'SAC', 'PHX', 'NOP', 'MIA']"
+Cal State-Fullerton,"['MIA', 'PHX', 'DAL', 'BOS', 'SAS', 'TOR', 'MIN', 'LAC', 'HOU']"
+Long Beach State,"['UTA', 'PHI', 'NJN', 'SEA', 'HOU', 'WAS', 'LAL', 'CLE', 'DEN', 'MIA', 'NOP', 'MEM']"
+Tennessee State,"['TOR', 'CHH', 'POR', 'HOU', 'MIA', 'IND', 'MIL', 'PHI', 'BKN', 'MIN', 'LAC']"
+Albany State (GA),['HOU']
+Virginia Union,"['NYK', 'WAS', 'TOR', 'ORL', 'DET', 'DEN', 'CHI', 'HOU', 'CLE']"
+Central Michigan,"['MIA', 'PHX', 'TOR', 'LAC', 'NOH', 'DAL', 'LAL', 'POR']"
+Georgia,"['SAS', 'UTA', 'MIA', 'DET', 'MIL', 'ORL', 'CLE', 'PHI', 'HOU', 'NYK', 'BOS', 'WAS', 'SEA', 'LAL', 'CHA', 'PHX', 'NJN', 'OKC', 'MIN', 'ATL', 'LAC', 'IND', 'BKN', 'DEN']"
+Northern Illinois,"['TOR', 'ATL', 'PHI', 'BOS']"
+Colorado,"['ATL', 'TOR', 'DEN', 'MIN', 'DET', 'IND', 'NYK', 'CHA', 'LAC', 'UTA', 'OKC', 'MIL', 'CHI', 'BKN', 'SAS', 'SAC', 'PHI', 'DAL', 'BOS', 'POR']"
+Pepperdine,"['TOR', 'PHX', 'SAC', 'NJN', 'ORL', 'DET', 'DAL', 'DEN', 'LAC', 'MIA', 'CLE', 'BKN']"
+La Salle,"['PHI', 'WAS', 'SAC', 'GSW', 'BOS', 'NJN', 'LAC', 'MIA', 'NOK', 'NOH', 'CHI', 'TOR', 'IND', 'SAS', 'ORL']"
+Florida,"['LAC', 'SAS', 'GSW', 'CHH', 'BOS', 'CLE', 'SAC', 'SEA', 'ORL', 'DAL', 'DEN', 'MEM', 'PHX', 'MIA', 'TOR', 'NJN', 'NYK', 'ATL', 'MIN', 'CHI', 'PHI', 'WAS', 'HOU', 'DET', 'LAL', 'OKC', 'BKN', 'CHA']"
+Fayetteville State,"['ORL', 'NOH', 'DAL', 'IND', 'NJN']"
+Navy,['SAS']
+Baylor,"['BOS', 'MIN', 'CHH', 'LAC', 'TOR', 'CLE', 'PHI', 'NOH', 'MIL', 'SAC', 'HOU', 'POR', 'PHX', 'GSW', 'MEM', 'DEN', 'OKC', 'NYK', 'DET', 'BKN', 'ATL', 'DAL', 'UTA', 'ORL', 'IND', 'SAS']"
+Nevada-Reno,"['MIL', 'MIA', 'WAS', 'GSW', 'LAL', 'CHA', 'DEN', 'PHX']"
+Jacksonville,"['BOS', 'TOR', 'ORL']"
+Pacific,"['ORL', 'LAC', 'MIN', 'BOS']"
+Southeastern Oklahoma State,"['CHI', 'LAL', 'DAL']"
+Duquesne,"['ATL', 'MIA', 'DET', 'HOU', 'TOR', 'MIN', 'NOH', 'WAS', 'CHI', 'DAL']"
+Augustana (SD),['BOS']
+Central Arkansas,"['CHI', 'HOU', 'POR']"
+West Virginia Tech,['HOU']
+California-Irvine,"['NYK', 'CLE']"
+Trinity Valley Community College,"['SEA', 'CLE', 'POR', 'ORL']"
+DePaul,"['UTA', 'WAS', 'ATL', 'SEA', 'NJN', 'ORL', 'NYK', 'GSW', 'SAC', 'VAN', 'TOR', 'LAC', 'POR', 'MIA', 'MIN', 'PHX', 'HOU', 'PHI', 'MIL', 'MEM', 'DEN', 'CHA', 'SAS', 'BKN', 'CHI']"
+Hampton,"['DET', 'PHI', 'LAL']"
+Rice,"['CHH', 'IND', 'MIL', 'MIN', 'HOU', 'SAS', 'SEA', 'UTA', 'OKC', 'WAS']"
+Marist,['IND']
+Southern California,"['DAL', 'HOU', 'VAN', 'DEN', 'MIN', 'CLE', 'NJN', 'NOH', 'BOS', 'SEA', 'WAS', 'SAS', 'MEM', 'CHI', 'TOR', 'LAC', 'PHI', 'ORL', 'LAL', 'MIL', 'OKC', 'ATL', 'NYK', 'MIA', 'SAC']"
+Centenary (LA),"['CHI', 'VAN', 'ATL', 'NYK']"
+Wake Forest,"['LAC', 'DET', 'CHH', 'GSW', 'SAS', 'CHI', 'UTA', 'TOR', 'PHX', 'BOS', 'NJN', 'SAC', 'DAL', 'PHI', 'NOK', 'WAS', 'NOH', 'ATL', 'MEM', 'ORL', 'MIL', 'MIN', 'NOP', 'POR', 'IND', 'MIA', 'HOU', 'OKC', 'BKN', 'DEN']"
+Miami (OH),"['CHI', 'MIN', 'LAL', 'SAS', 'ATL', 'CLE', 'BOS']"
+Weber State,"['POR', 'NJN', 'MEM', 'IND', 'SEA', 'CLE', 'MIL', 'UTA']"
+Mercer,['MIN']
+Santa Clara,"['PHX', 'DAL', 'BOS', 'LAL', 'OKC']"
+Vanderbilt,"['SAS', 'CHI', 'HOU', 'POR', 'PHX', 'MIL', 'NOH', 'ATL', 'CHA', 'GSW', 'MEM', 'NYK', 'CLE', 'BOS', 'SAC', 'DET', 'LAL', 'IND', 'UTA']"
+Minnesota,"['MIA', 'ATL', 'SAS', 'DEN', 'TOR', 'MIN', 'LAL', 'CHH', 'UTA', 'GSW', 'MIL', 'SAC', 'POR', 'CHA', 'NJN', 'MEM', 'NOK', 'HOU', 'BKN', 'BOS', 'WAS', 'LAC']"
+Wright State,"['CLE', 'BOS', 'SEA', 'SAC']"
+Hartford,"['MIL', 'SEA', 'BOS', 'NYK', 'HOU', 'LAC']"
+Tulsa,"['HOU', 'LAL', 'CHI', 'PHI', 'UTA', 'WAS', 'MIL', 'POR', 'NJN', 'NYK', 'TOR', 'BKN', 'PHX', 'SAC', 'SAS', 'DEN', 'MEM']"
+Wichita State,"['NJN', 'UTA', 'HOU', 'VAN', 'DAL', 'NYK', 'TOR', 'WAS', 'LAC', 'BKN', 'PHX']"
+George Washington,"['NJN', 'PHX', 'DAL', 'WAS', 'TOR', 'NOH', 'ORL', 'ATL', 'MEM', 'UTA', 'BKN']"
+Oregon,"['CLE', 'MIL', 'MIN', 'IND', 'SEA', 'SAS', 'POR', 'TOR', 'NYK', 'HOU', 'MIA', 'LAC', 'PHX', 'CHA', 'DEN', 'ORL', 'CHI', 'ATL', 'GSW', 'MEM', 'WAS', 'DET', 'BOS', 'SAC', 'DAL', 'LAL', 'PHI']"
+Seton Hall,"['LAC', 'PHX', 'SAC', 'SAS', 'UTA', 'VAN', 'CHI', 'CLE', 'BOS', 'DAL', 'PHI', 'HOU', 'ORL', 'MIN', 'TOR', 'SEA', 'MIL', 'NYK', 'BKN', 'DET']"
+Wisconsin-Stevens Point,"['MIN', 'MIA', 'SAS']"
+Utah,"['CHH', 'NJN', 'PHI', 'ORL', 'CLE', 'ATL', 'NYK', 'LAC', 'DEN', 'MIL', 'MIA', 'DAL', 'IND', 'MIN', 'POR', 'GSW', 'WAS', 'SAC', 'SAS', 'TOR', 'LAL', 'MEM']"
+Missouri-Kansas City,"['PHX', 'CLE']"
+Jackson State,"['DET', 'MIL', 'LAL', 'TOR', 'CHI', 'CLE', 'NOH']"
+Stetson,['WAS']
+Massachusetts,"['GSW', 'TOR', 'NYK', 'CLE', 'IND', 'DEN', 'MIA', 'LAC', 'POR', 'HOU']"
+New Mexico,"['CHI', 'LAC', 'PHX', 'HOU', 'NYK', 'SAS', 'PHI', 'POR', 'SAC', 'DEN', 'IND', 'BOS', 'MIL', 'CLE', 'DET', 'ATL', 'NOP']"
+Drexel,"['CHH', 'SAS', 'NYK', 'OKC', 'GSW', 'PHX']"
+Murray State,"['POR', 'TOR', 'BOS', 'DET', 'DEN', 'WAS', 'DAL', 'GSW', 'LAC', 'HOU', 'PHI', 'OKC', 'CHI', 'MIL', 'CLE', 'MEM', 'PHX']"
+American International,"['HOU', 'SAS', 'PHX']"
+Coppin State,['SEA']
+Eastern Illinois,['LAC']
+Iowa,"['SAC', 'HOU', 'GSW', 'TOR', 'MIL', 'CHH', 'SAS', 'ORL', 'DEN', 'CHI', 'MIA', 'CLE', 'SEA', 'BOS', 'MIN', 'NOH', 'PHI', 'LAC', 'OKC', 'BKN', 'DAL', 'WAS', 'DET']"
+Texas Christian,"['MIA', 'DAL', 'NYK', 'CHH', 'CLE', 'NOH', 'PHI', 'PHX', 'SAS', 'MIL', 'CHI', 'POR']"
+Texas,"['IND', 'CLE', 'MIN', 'MEM', 'BOS', 'MIL', 'SAC', 'ATL', 'LAL', 'CHI', 'DET', 'TOR', 'POR', 'ORL', 'SEA', 'OKC', 'PHI', 'CHA', 'NJN', 'MIA', 'WAS', 'SAS', 'DEN', 'BKN', 'PHX', 'HOU', 'LAC', 'NOP', 'GSW', 'NYK']"
+Montana,"['LAL', 'TOR']"
+Louisiana Tech,"['MIA', 'UTA', 'CHH', 'NOH', 'LAL', 'NOK', 'CHI', 'BOS', 'ATL', 'DEN', 'PHI', 'MEM']"
+Central State (OH),"['ATL', 'DEN']"
+New Mexico State,"['CHI', 'MIN', 'WAS', 'BOS', 'PHX', 'SAC', 'TOR', 'DAL', 'DET', 'LAL', 'HOU', 'IND']"
+Montevallo,['BOS']
+Seward County Community College,['TOR']
+North Carolina-Wilmington,"['MIA', 'LAL', 'SAS']"
+Missouri,"['GSW', 'VAN', 'MIN', 'SAC', 'LAC', 'LAL', 'MIA', 'CHA', 'WAS', 'DEN', 'ORL', 'IND', 'CHI', 'PHI', 'NJN', 'ATL', 'MEM', 'MIL', 'HOU', 'TOR', 'BOS', 'UTA', 'DET', 'POR', 'BKN', 'CLE']"
+San Diego State,"['PHI', 'NJN', 'CHI', 'SAS', 'MEM', 'UTA', 'DEN', 'TOR', 'CHA', 'LAC', 'WAS']"
+Georgia Southern,"['DET', 'MIL', 'TOR', 'IND']"
+Wisconsin,"['DAL', 'MIL', 'MIA', 'UTA', 'LAC', 'SAS', 'NJN', 'PHX', 'MIN', 'BOS', 'ATL', 'MEM', 'NOP', 'TOR', 'CHA', 'SAC', 'HOU', 'DET', 'DEN', 'WAS', 'ORL']"
+Kansas State,"['SAC', 'DET', 'WAS', 'LAL', 'BOS', 'MIA', 'CHA', 'NYK', 'MIN', 'PHX', 'ATL', 'HOU', 'MIL', 'ORL', 'PHI', 'LAC', 'CLE', 'NOP', 'UTA']"
+West Florida,"['VAN', 'SEA', 'HOU', 'NYK', 'NOK']"
+Mt. San Antonio,"['NJN', 'TOR']"
+Southern,"['SAS', 'CLE', 'CHH', 'DAL', 'GSW']"
+Creighton,"['TOR', 'PHI', 'MIA', 'CLE', 'MEM', 'SAC', 'NJN', 'UTA', 'SAS', 'GSW', 'CHI', 'MIN', 'ATL', 'CHA', 'DET', 'OKC', 'DAL', 'IND', 'MIL', 'PHX', 'HOU']"
+East Carolina,"['VAN', 'MIA', 'ORL']"
+Pfeiffer,"['SEA', 'POR', 'ATL']"
+Stanford,"['UTA', 'CLE', 'GSW', 'LAL', 'ATL', 'NJN', 'MEM', 'PHX', 'MIL', 'MIN', 'NOH', 'CHA', 'LAC', 'POR', 'NYK', 'BKN', 'WAS', 'TOR', 'NOP', 'DAL', 'OKC', 'CHI', 'ORL', 'MIA', 'SAC']"
+Lamar,"['PHI', 'DAL', 'PHX', 'BKN']"
+Central Connecticut State,"['LAC', 'NOH']"
+South Carolina State,['CHH']
+San Jose State,"['SAC', 'DEN', 'DAL']"
+Colgate,"['GSW', 'ORL']"
+College of Charleston,"['SAC', 'ATL', 'ORL', 'CLE', 'NJN', 'IND', 'LAL', 'HOU', 'CHA', 'UTA']"
+Bowling Green,"['VAN', 'SAS', 'POR', 'SEA', 'MIN', 'UTA', 'WAS', 'IND', 'NOH', 'PHI', 'PHX', 'SAC']"
+Cal State-Bakersfield,['PHI']
+Austin Peay,"['DAL', 'CHI', 'MIN', 'NJN', 'IND']"
+Morehead State,"['TOR', 'DEN', 'HOU', 'LAC']"
+Davidson,"['GSW', 'SAS', 'ATL']"
+Morehouse,['DEN']
+Wisconsin-Green Bay,"['MIL', 'CLE', 'LAL']"
+Auburn-Montgomery,"['IND', 'WAS', 'LAC', 'CLE']"
+Rhode Island,"['HOU', 'DEN', 'LAC', 'MIA', 'LAL', 'SAC', 'DAL', 'MEM', 'MIL', 'MIN', 'ORL', 'TOR']"
+Nicholls State,"['SAS', 'WAS']"
+Ball State,"['POR', 'MEM', 'CHA', 'SAC', 'HOU', 'NOH']"
+Long Island-Brooklyn,"['CHI', 'LAC']"
+Valparaiso,"['HOU', 'CHI', 'CHH', 'NOH', 'PHX', 'PHI']"
+Toledo,"['PHI', 'GSW']"
+Liberty,['SAC']
+Florida A&M,"['SAC', 'SEA', 'NYK']"
+Saint Louis,"['PHI', 'GSW', 'WAS', 'CLE', 'CHI', 'NYK', 'CHA', 'ORL', 'BKN', 'MIA']"
+Dayton,"['TOR', 'GSW', 'NOH', 'MEM', 'NOP', 'BOS', 'MIL', 'CHA', 'UTA', 'POR', 'LAL', 'NYK']"
+Colorado State,"['VAN', 'BOS', 'PHX', 'CLE', 'TOR', 'UTA', 'PHI', 'NOH', 'NOP', 'NYK', 'ORL', 'WAS', 'DAL', 'MEM']"
+Miami (FL),"['MIA', 'CHH', 'PHI', 'IND', 'PHX', 'SAC', 'LAC', 'POR', 'CHI', 'MIL', 'ORL', 'TOR', 'DAL', 'NYK', 'NOP', 'CLE', 'BKN']"
+Texas State,['IND']
+Thomas More,['DAL']
+Fresno State,"['MIL', 'DEN', 'BOS', 'WAS', 'CHH', 'LAC', 'TOR', 'HOU', 'NOH', 'CHI', 'ATL', 'DET', 'MIA', 'CHA', 'IND', 'SEA', 'GSW', 'SAS', 'ORL', 'SAC', 'NOP', 'DAL', 'MIN', 'OKC', 'PHX', 'BKN']"
+George Mason,['CHH']
+South Florida,"['ORL', 'DET', 'BOS', 'LAL', 'MEM', 'ATL', 'DEN', 'OKC', 'IND', 'DAL', 'NOH', 'NYK']"
+Hawaii,"['MIA', 'DEN', 'SAS', 'MIN', 'NYK', 'TOR']"
+Barton Community College,"['TOR', 'UTA']"
+Northwestern,"['NJN', 'DAL', 'DET', 'ORL']"
+North Carolina-Charlotte,"['NYK', 'HOU', 'DET', 'DEN', 'GSW', 'CHI']"
+Central Oklahoma,"['CHH', 'CHI']"
+Augsburg,"['LAL', 'DAL', 'GSW']"
+Saint Rose,['DEN']
+Louisiana-Monroe,['WAS']
+Master's,['LAL']
+Lebanon Valley,['ATL']
+Northern Arizona,['DEN']
+Saint Vincent,"['PHX', 'MIL']"
+St. Bonaventure,"['WAS', 'BOS', 'GSW', 'ORL', 'BKN', 'ATL', 'MIL']"
+Princeton,"['CHI', 'NJN', 'ORL']"
+Butler Community College,"['NJN', 'SAS', 'ATL', 'IND', 'GSW', 'CHA', 'LAC']"
+Florida International,"['PHI', 'DEN', 'DAL', 'UTA', 'DET', 'PHX', 'ORL', 'CHA', 'GSW', 'MIA', 'BOS']"
+Venezuela,"['HOU', 'GSW']"
+Hofstra,"['CHI', 'PHI', 'SAS', 'GSW', 'NOH', 'NOK', 'ATL', 'UTA']"
+Indian Hills Community College,['MIA']
+Northwest Florida State,"['BOS', 'CLE', 'PHI']"
+Southern Methodist,"['ORL', 'LAC', 'MEM', 'WAS', 'NJN', 'MIL', 'BOS', 'IND', 'PHI', 'HOU', 'NYK', 'DAL', 'LAL']"
+Blinn,"['DEN', 'NOH', 'NOK', 'MIA', 'MEM', 'CLE']"
+Mississippi,"['SEA', 'BOS', 'GSW', 'MIN', 'TOR', 'SAC']"
+Wingate,"['DEN', 'NOH', 'MEM']"
+Fordham,"['CLE', 'PHX', 'LAL', 'LAC']"
+Northeast Mississippi Community College,"['POR', 'MIA', 'NYK']"
+Marshall,"['NJN', 'CHA', 'SAC', 'MIA', 'POR', 'UTA']"
+Texas-San Antonio,"['DEN', 'SAS', 'UTA', 'NOK', 'CLE', 'NOH', 'CHI']"
+Shaw,"['SEA', 'CLE', 'DET', 'IND', 'ATL', 'CHI']"
+Western Michigan,"['UTA', 'IND']"
+Portland State,"['LAL', 'NYK', 'POR', 'SAS', 'SAC']"
+Idaho,"['POR', 'NJN', 'CLE']"
+North Dakota,['MIA']
+Utah State,"['ORL', 'MIL', 'SAC', 'MEM', 'CLE']"
+Central Florida,"['ORL', 'HOU', 'SAC', 'MIA', 'BOS']"
+Nevada,"['UTA', 'NOK', 'HOU', 'BOS', 'MIN', 'LAC', 'MIL', 'WAS', 'POR', 'CLE', 'DEN', 'NJN', 'LAL', 'CHA', 'NOP', 'DAL', 'MIA', 'GSW', 'TOR', 'ATL']"
+Manhattan,['DEN']
+Brigham Young-Hawaii,['PHX']
+Saint Joseph's,"['BOS', 'ORL', 'CLE', 'CHA', 'PHX', 'DAL', 'NYK', 'DEN', 'SAC', 'ATL']"
+Kent State,"['IND', 'ATL']"
+William Paterson,['DET']
+Southeastern Illinois,['ATL']
+Yonsei (KOR),['POR']
+Utah Valley,"['SAC', 'UTA', 'PHX', 'POR', 'ORL', 'LAL']"
+Walsh,['UTA']
+Oakland,"['DAL', 'IND', 'GSW', 'MIA', 'WAS']"
+Louisiana-Lafayette,"['BOS', 'IND', 'SAC', 'NJN', 'ORL', 'PHI']"
+Texas A&M,"['NJN', 'DAL', 'ATL', 'LAC', 'TOR', 'CHI', 'SAC', 'GSW', 'CLE', 'NOH', 'DET', 'IND', 'MIL', 'BKN', 'WAS', 'PHX', 'LAL', 'NYK', 'HOU', 'BOS', 'UTA', 'PHI', 'DEN']"
+Alabama-Birmingham,"['WAS', 'DET', 'NOH', 'UTA', 'PHX']"
+Fairfield,['PHI']
+Rutgers,"['SAC', 'TOR', 'WAS']"
+Northeastern,"['DAL', 'MIN']"
+Delta State,"['POR', 'ATL', 'ORL']"
+Meridian Community College,"['TOR', 'MIA', 'CLE', 'LAC', 'CHA']"
+Missouri State,"['MIA', 'SAS', 'UTA', 'IND', 'BKN', 'NOP']"
+Eastern Washington,"['DET', 'IND', 'BKN']"
+West Virginia,"['MIL', 'CHI', 'LAL', 'CLE', 'MEM', 'PHX', 'DET', 'NYK']"
+Rider,"['SAC', 'TOR']"
+Indiana Purdue-Indianapolis,"['SAS', 'IND', 'UTA']"
+Midland,"['TOR', 'MIN']"
+Saint Mary's (CA),"['POR', 'SAS', 'CLE', 'MIL']"
+Robert Morris (IL),"['UTA', 'WAS', 'MIN']"
+Virginia Military Institute,"['GSW', 'CHA', 'OKC', 'SAS', 'NOP']"
+Northwestern State,['MEM']
+Virginia Commonwealth,"['OKC', 'MIL', 'POR', 'PHI', 'HOU', 'CHA', 'MIA', 'CLE', 'MEM', 'DEN', 'LAC']"
+Cleveland State,"['WAS', 'MIA', 'NOP', 'OKC']"
+Tennessee-Martin,"['MEM', 'WAS', 'LAC']"
+Towson,"['SAS', 'CHA', 'MIN', 'WAS', 'ATL']"
+Butler,"['UTA', 'WAS', 'ATL', 'ORL', 'BOS', 'CHA', 'MIN', 'MEM', 'IND']"
+Le Moyne,"['WAS', 'NYK', 'IND']"
+Harvard,"['GSW', 'NYK', 'HOU', 'LAL', 'CHA', 'BKN', 'TOR']"
+Augusta State,['PHX']
+Portland,['SAC']
+Cornell,['NOH']
+Cal State-San Bernardino,['ATL']
+Midwestern State,['SAS']
+Siena,['WAS']
+Jacksonville State,['DET']
+Alabama A&M,['GSW']
+Iona,"['GSW', 'LAL', 'PHI', 'NYK', 'UTA']"
+Tennessee Tech,['UTA']
+Norfolk State,"['ORL', 'NYK', 'IND', 'PHI']"
+Belmont,"['UTA', 'DEN', 'GSW', 'NOP', 'CLE']"
+California-Berkeley,"['BKN', 'MIL', 'CHA']"
+Lehigh,"['POR', 'NOP']"
+North Texas,['DET']
+South Dakota State,"['MIL', 'UTA']"
+Bucknell,"['ATL', 'LAL', 'OKC', 'BOS']"
+USC,"['MEM', 'ORL', 'GSW', 'MIN', 'ATL', 'TOR', 'PHX', 'SAS', 'DEN']"
+UNLV,"['MIL', 'ORL', 'GSW', 'MIA', 'NOP', 'TOR', 'DET', 'POR', 'HOU', 'CHI', 'ATL', 'DAL', 'SAS']"
+Georgia State,"['BOS', 'CHI', 'HOU']"
+Westchester CC NY,"['POR', 'DET']"
+Ohio U.,['NYK']
+Miami (Fla.),['WAS']
+St. Mary's (CA),"['MIL', 'SAS', 'CLE']"
+"St. John's, N.Y.","['POR', 'SAC', 'CHI', 'TOR']"
+Holy Cross,['TOR']
+Loyola (IL),['BKN']
+Alabama Huntsville,"['ATL', 'ORL']"
+California-Los Angeles,"['HOU', 'MIL', 'LAC']"
+Va Commonwealth,"['PHX', 'CHA', 'BKN', 'ATL']"
+South Carolina Upstate,"['DEN', 'PHX']"
+ ,"['MIL', 'NYK', 'POR']"
+St. Louis,"['LAC', 'WAS']"
+Miami,"['BOS', 'PHX', 'DET', 'IND', 'SAS', 'TOR', 'BKN', 'DEN', 'LAL']"
+University of Dayton,"['NOP', 'DAL', 'ATL']"
+American University,['LAL']
+Cal-Santa Barbara,"['PHX', 'HOU', 'BKN', 'DAL']"
+S.E. Missouri,"['ATL', 'DAL']"
+Molloy,"['ATL', 'MIL', 'SAS']"
+Cal State-Long Beach,"['DET', 'PHI', 'DEN']"
+"Stony Brook, N.Y.",['DAL']
+Boston U.,['CLE']
+Louisana-Lafayette,"['PHX', 'NOP', 'NYK']"
+"University of California, Berkeley",['MEM']
+University of Colorado Boulder,['PHX']
+Illinois State,['DEN']
+Georgia Institute of Technology,['MIN']
+University of Texas at Austin,"['ORL', 'SAS', 'SAC', 'DET', 'BKN']"
+California State-Long Beach,['ORL']
+St. John's,"['IND', 'NYK', 'SAC', 'SAS']"
+Texas-Austin,"['NOP', 'BKN', 'LAL', 'ORL', 'CLE', 'HOU', 'IND', 'BOS', 'MIL', 'POR', 'DET', 'MIA', 'CHA', 'NYK', 'CHI']"
+Radford,"['BOS', 'CHI']"
+Indiana-Purdue Indianapolis,"['MIL', 'PHI', 'IND']"
+Lipscomb,"['WAS', 'HOU', 'ATL']"
+Nebraska-Lincoln,['OKC']
+No College,"['LAL', 'BOS']"
+Texas-Arlington,['OKC']
+TCU,"['NOP', 'MEM', 'OKC', 'CLE']"
+St. Joseph's (PA),"['DET', 'ATL', 'TOR', 'OKC', 'PHX', 'PHI', 'MIL', 'SAS']"
+Indiana-Purdue Fort Wayne,['MEM']
+Virginia Tech ,"['WAS', 'OKC']"
+Florida Gulf Coast,"['ATL', 'CLE']"
+Campbell University,['HOU']
+Cal Poly,['HOU']
+St.Mary's College of California,"['CLE', 'SAS', 'BKN']"
+                                   ,['LAC']
+Truman State,"['CLE', 'BOS']"
+Vermont,"['HOU', 'GSW']"
+Montana State,"['POR', 'NYK']"
+Delaware,['CHA']
+William & Mary,"['ATL', 'MIN']"
+Arizona St.,['UTA']
+Lincoln Memorial,['PHX']
+Wheeling Jesuit,['MIA']
+Texas Legends,['DEN']
+Denver,['SAC']
+Wisc.-Green Bay,"['CHI', 'IND']"
+UNC,['PHX']
+UCF,['CLE']
+Loyola-Maryland,['MEM']
+LSU,['WAS']
+Chicago St.,['DET']
+St. Mary's,"['BKN', 'PHX']"
+Wisconsin-Milwaukee,['GSW']
+Northwest Missouri State,['HOU']
+Winthrop,['WAS']
+Northern Iowa,['MIL']
+Cal-Davis,['SAC']
+Stephen F. Austin,['ORL']
+San Francisco,['WAS']
+John A. Logan,['ORL']
+Buffalo,['POR']
