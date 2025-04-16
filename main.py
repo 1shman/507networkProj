@@ -1,5 +1,4 @@
 import pandas as pd
-import csv
 from collections import defaultdict
 from sklearn.preprocessing import MinMaxScaler
 import warnings
@@ -7,14 +6,14 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def clean_data(nba):
-    # Extract the first four characters of the 'season' column, convert to integer
+    # Extract the current season
     nba['season_year'] = nba['season'].str[:4].astype(int)
 
-    # Replace "undrafted" with 0 in the 'draft_year' column
+    # Replace "undrafted" with 0 in 'draft_year'
     nba['draft_year'] = nba['draft_year'].replace('Undrafted', 0)
     nba['draft_year'] = nba['draft_year'].astype(int)
 
-    # Filter to extract all drafted rookies
+    # Filter to extract rookies
     rookies = nba[nba['draft_year'] == nba['season_year']]
 
     # Replace negative net_rating values with 0
@@ -23,18 +22,18 @@ def clean_data(nba):
     return rookies
 
 def calc_composite_score(rookies):
-    # Ensure all values are numeric, filling NaNs with zero or an appropriate value if necessary
-    rookies.fillna(0, inplace=True)  # Or choose a strategy like rookies.fillna(rookies.mean(), inplace=True)
+    # Replace any Nan value with 0
+    rookies.fillna(0, inplace=True)
 
-    # Select only the columns to normalize
+    # Select columns to normalize
     numeric_cols = ["pts", "reb", "ast", "net_rating", "ts_pct", "usg_pct"]
     scaler = MinMaxScaler()
 
-    # Normalize the selected columns
+    # Normalize
     normalized_vals = scaler.fit_transform(rookies[numeric_cols])
     normalized_df = pd.DataFrame(normalized_vals, columns=numeric_cols)
 
-    # Ensure indices align between rookies and normalized_df
+    # Ensure indices align
     normalized_df.index = rookies.index
 
     # Create a composite score by averaging the normalized values
@@ -44,7 +43,7 @@ def create_adj_list(data):
     # Create a dictionary of lists to store the adjacency list
     adjacency_list = defaultdict(list)
 
-    # Iterate over each row in the data
+    # Iterate
     for index, row in data.iterrows():
         college = row['college']
         team = row['team_abbreviation']
@@ -60,7 +59,7 @@ def get_node_connections(adjacency_list):
     # Create a dictionary to count connections for colleges only
     college_connection_counts = defaultdict(int)
 
-    # Iterate over each college in the adjacency list
+    # Iterate
     for college, connections in adjacency_list.items():
         # Count each player connection for the college
         college_connection_counts[college] += len(connections)
@@ -74,27 +73,24 @@ def top_colleges_by_team(adjacency_list, target_team):
     # Dictionary to store the count of players drafted from each college by the target team
     college_counts = defaultdict(int)
 
-    # Iterate through the adjacency list
+    # Iterate through dictionary 
     for college, players in adjacency_list.items():
-        # Iterate through each player's data
+        # Iterate through list
         for team, player, composite_score in players:
-            # If the team matches the target_team, increment the count for this college
+            # If the team matches target_team, increment
             if team == target_team:
                 college_counts[college] += 1
 
-    # Sort the colleges by the number of players drafted by the target team in descending order
+    # Sort the colleges
     sorted_colleges = sorted(college_counts.items(), key=lambda x: x[1], reverse=True)
 
-    # Return the top three colleges or fewer if less than three exist
-    top_three_colleges = sorted_colleges
-
-    return top_three_colleges
+    return sorted_colleges
 
 def calc_average_composite(adjacency_list):
     # Dictionary to store total composite scores and counts for each college
     scores_data = defaultdict(lambda: {'total_score': 0.0, 'count': 0})
 
-    # Iterate over the adjacency list
+    # Iterate
     for college, players in adjacency_list.items():
         for _, _, composite_score in players:
             # Accumulate the composite scores and count of players per college
@@ -112,19 +108,8 @@ def calc_average_composite(adjacency_list):
     return average_scores
 
 def main():
+    # Read in data
     nba = pd.read_csv("all_seasons.csv")
-
-    # Option 1 Return a list of the most connected colleges - gives insights to the college with highest draft history (tie between MSU/UM)
-        # Done
-        # Give option to visualize
-        # (best team to get drafted from in general)
-    # Option 2 For each college - NBA team, check their calculated composite score to give insights on athlete performance
-        # Done
-        # Give option to visualize
-        # (best team to attend for rookie year performance)
-    # Option 3 Return a list of colleges that are most historically drafted by an inputed NBA team
-        # Give option to visualize
-        # (if given a goal team to attend, return colleges that will increase your odds)
 
     while True:
         response = 0
@@ -147,7 +132,7 @@ def main():
             print("\nPlease input a valid input option\n")
             continue
 
-        # It is assumed that data is valid from here onwards
+        # It is assumed that input is valid from here onwards
 
         # Clean & prep our data
         rookies = clean_data(nba)
@@ -156,12 +141,11 @@ def main():
         # Create network with an adjacency list
         adj_list = create_adj_list(rookies)
 
-        # Valid input responses below
+        # Respond to input
         if response == 1:
             sorted_nodes_with_connections = get_node_connections(adj_list)
             for node, count in sorted_nodes_with_connections:
                 print(f"'{node}': {count}")
-            print("\n")
         elif response == 2:
             # Calculate and print average composite scores for each college
             average_scores = calc_average_composite(adj_list)
@@ -170,11 +154,10 @@ def main():
         elif response == 3:
             target_team = input("Enter NBA three letter team code: ")
             top_colleges = top_colleges_by_team(adj_list, target_team)
-            # Print out the results
             for college, count in top_colleges:
                 print(f"{college}: {count}")
         else:
-            print("\nThank You!\n")
+            print("\nGoodbye!\n")
             break
 
 if __name__ == "__main__":
