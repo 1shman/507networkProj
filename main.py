@@ -6,6 +6,21 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def clean_data(nba):
+    """
+    Clean and process the NBA dataset to extract rookie data.
+
+    Parameters
+    ----------
+    nba : pandas.DataFrame
+        A DataFrame containing NBA player data with columns including:
+        'season', 'draft_year', and 'net_rating'.
+
+    Returns
+    -------
+    pandas.DataFrame
+        A DataFrame containing only rookie players data, with 'draft_year'
+        and 'net_rating' appropriately adjusted.
+    """
     # Extract the current season
     nba['season_year'] = nba['season'].str[:4].astype(int)
 
@@ -22,6 +37,19 @@ def clean_data(nba):
     return rookies
 
 def calc_composite_score(rookies):
+    """
+    Calculate a composite performance score for each player.
+
+    Parameters
+    ----------
+    rookies : pandas.DataFrame
+        A DataFrame containing player statistics with at least the following columns:
+        'pts', 'reb', 'ast', 'net_rating', 'ts_pct', 'usg_pct'.
+
+    Returns
+    --------
+        None
+    """
     # Replace any Nan value with 0
     rookies.fillna(0, inplace=True)
 
@@ -40,6 +68,24 @@ def calc_composite_score(rookies):
     rookies['composite_performance_score'] = normalized_df.mean(axis=1)
 
 def create_adj_list(data):
+    """
+    Create an adjacency list from a DataFrame.
+
+    Parameters
+    ----------
+    data : pandas.DataFrame
+        A DataFrame containing the following columns:
+        'college', 'team_abbreviation', 'player_name', 'composite_performance_score'
+
+    Returns
+    -------
+    dict
+        A dictionary representing the adjacency list. The keys are college names (str),
+        and the values are lists of tuples. Each tuple contains:
+        - str : NBA team abbreviation
+        - str : player name
+        - float : composite performance score
+    """
     # Create a dictionary of lists to store the adjacency list
     adjacency_list = defaultdict(list)
 
@@ -56,6 +102,24 @@ def create_adj_list(data):
     return adjacency_list
 
 def get_node_connections(adjacency_list):
+    """
+    Calculate and sort the number of player connections for each college.
+
+    Parameters
+    ----------
+    adjacency_list : dict
+        A dictionary where each key is a college name and each value is a list of
+        tuples. Each tuple represents a player's connection, containing:
+        - str : NBA team abbreviation
+        - str : player name
+        - float : composite score
+
+    Returns
+    -------
+    List[Tuple[str, int]]
+        A list of tuples with the college name and the number of player connections,
+        sorted in descending order of connections.
+    """
     # Create a dictionary to count connections for colleges only
     college_connection_counts = defaultdict(int)
 
@@ -70,10 +134,31 @@ def get_node_connections(adjacency_list):
     return sorted_college_connections
 
 def top_colleges_by_team(adjacency_list, target_team):
+    """
+    Determine the number of players drafted from each college by a specific NBA team.
+
+    Parameters
+    ----------
+    adjacency_list : dict
+        A dictionary where the keys are college names (str) and the values are lists
+        of tuples. Each tuple contains:
+        - str : NBA team abbreviation
+        - str : player name
+        - float : composite score
+
+    target_team : str
+        The NBA team abbreviation to search for in the player lists.
+
+    Returns
+    -------
+    List[Tuple[str, int]]
+        A sorted list of tuples, each containing a college name and the count of players
+        drafted by the specified team, sorted in descending order of count.
+    """
     # Dictionary to store the count of players drafted from each college by the target team
     college_counts = defaultdict(int)
 
-    # Iterate through dictionary 
+    # Iterate through dictionary
     for college, players in adjacency_list.items():
         # Iterate through list
         for team, player, composite_score in players:
@@ -87,6 +172,26 @@ def top_colleges_by_team(adjacency_list, target_team):
     return sorted_colleges
 
 def calc_average_composite(adjacency_list):
+    """
+    Calculate the average composite score for each college from an adjacency list.
+
+    Parameters
+    ----------
+    adjacency_list : dict
+        A dictionary where each key is a college, and each value is a
+        list of tuples. Each tuple contains:
+        - str : team abbreviation
+        - str : player name
+        - int : draft year
+        - float : composite score
+
+    Returns
+    -------
+    dict
+        A dictionary with colleges as keys and their average composite scores
+        as values. If a college has no players, the average score is stored
+        as NaN.
+    """
     # Dictionary to store total composite scores and counts for each college
     scores_data = defaultdict(lambda: {'total_score': 0.0, 'count': 0})
 
