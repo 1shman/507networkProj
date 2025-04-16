@@ -70,6 +70,26 @@ def get_node_connections(adjacency_list):
 
     return sorted_college_connections
 
+def top_colleges_by_team(adjacency_list, target_team):
+    # Dictionary to store the count of players drafted from each college by the target team
+    college_counts = defaultdict(int)
+
+    # Iterate through the adjacency list
+    for college, players in adjacency_list.items():
+        # Iterate through each player's data
+        for team, player, composite_score in players:
+            # If the team matches the target_team, increment the count for this college
+            if team == target_team:
+                college_counts[college] += 1
+
+    # Sort the colleges by the number of players drafted by the target team in descending order
+    sorted_colleges = sorted(college_counts.items(), key=lambda x: x[1], reverse=True)
+
+    # Return the top three colleges or fewer if less than three exist
+    top_three_colleges = sorted_colleges
+
+    return top_three_colleges
+
 def main():
     nba = pd.read_csv("all_seasons.csv")
 
@@ -88,7 +108,7 @@ def main():
     while True:
         response = 0
         # Prompt user for input
-        print("""Please select an input:\n1: Most successful colleges\n2: Determine average NBA rookie performance by college\n3: NBA draft history\n4: Exit\n""")
+        print("""\nPlease select an input:\n1: Most successful colleges\n2: Determine average NBA rookie performance by college\n3: NBA draft history\n4: Exit\n""")
 
         # Error checking
         try:
@@ -124,7 +144,11 @@ def main():
         elif response == 2:
             pass
         elif response == 3:
-            pass
+            target_team = input("Enter NBA three letter team code: ")
+            top_colleges = top_colleges_by_team(adj_list, target_team)
+            # Print out the results
+            for college, count in top_colleges:
+                print(f"{college}: {count}")
         else:
             print("\nThank You!\n")
             break
