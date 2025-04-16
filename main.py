@@ -56,6 +56,20 @@ def create_adj_list(data):
 
     return adjacency_list
 
+def get_node_connections(adjacency_list):
+    # Create a dictionary to count connections for colleges only
+    college_connection_counts = defaultdict(int)
+
+    # Iterate over each college in the adjacency list
+    for college, connections in adjacency_list.items():
+        # Count each player connection for the college
+        college_connection_counts[college] += len(connections)
+
+    # Sort the colleges by the number of connections in descending order
+    sorted_college_connections = sorted(college_connection_counts.items(), key=lambda x: x[1], reverse=True)
+
+    return sorted_college_connections
+
 def main():
     nba = pd.read_csv("all_seasons.csv")
 
@@ -71,11 +85,10 @@ def main():
         # Give option to visualize
         # (if given a goal team to attend, return colleges that will increase your odds)
 
-    response = 1
-
-    while response:
+    while True:
+        response = 0
         # Prompt user for input
-        print("""1: Most successful colleges\n2: Determine average NBA rookie performance by college\n3: NBA draft history\n4: Exit\n""")
+        print("""Please select an input:\n1: Most successful colleges\n2: Determine average NBA rookie performance by college\n3: NBA draft history\n4: Exit\n""")
 
         # Error checking
         try:
@@ -83,12 +96,15 @@ def main():
         # If invalid input
         except ValueError:
             print("\nPlease input a valid input option\n")
+            continue
         # Catch any other error
         except Exception:
             print("\nAn unexpected error occurred, please try again\n")
+            continue
         # If input is valid but out of scope
         if response > 4 or response < 0:
             print("\nPlease input a valid input option\n")
+            continue
 
         # It is assumed that data is valid from here onwards
 
@@ -99,9 +115,12 @@ def main():
         # Create network with an adjacency list
         adj_list = create_adj_list(rookies)
 
-        # Valid input resonses below
+        # Valid input responses below
         if response == 1:
-            pass
+            sorted_nodes_with_connections = get_node_connections(adj_list)
+            for node, count in sorted_nodes_with_connections:
+                print(f"'{node}': {count}")
+            print("\n")
         elif response == 2:
             pass
         elif response == 3:
