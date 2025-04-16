@@ -90,6 +90,27 @@ def top_colleges_by_team(adjacency_list, target_team):
 
     return top_three_colleges
 
+def calc_average_composite(adjacency_list):
+    # Dictionary to store total composite scores and counts for each college
+    scores_data = defaultdict(lambda: {'total_score': 0.0, 'count': 0})
+
+    # Iterate over the adjacency list
+    for college, players in adjacency_list.items():
+        for _, _, composite_score in players:
+            # Accumulate the composite scores and count of players per college
+            scores_data[college]['total_score'] += composite_score
+            scores_data[college]['count'] += 1
+
+    # Calculate average composite scores for each college
+    average_scores = {}
+    for college, data in scores_data.items():
+        if data['count'] > 0:
+            average_scores[college] = data['total_score'] / data['count']
+        else:
+            average_scores[college] = float('nan')  # Handle no players scenario
+
+    return average_scores
+
 def main():
     nba = pd.read_csv("all_seasons.csv")
 
@@ -142,7 +163,10 @@ def main():
                 print(f"'{node}': {count}")
             print("\n")
         elif response == 2:
-            pass
+            # Calculate and print average composite scores for each college
+            average_scores = calc_average_composite(adj_list)
+            for college, avg_score in average_scores.items():
+                print(f"{college}: {avg_score:.4f}")
         elif response == 3:
             target_team = input("Enter NBA three letter team code: ")
             top_colleges = top_colleges_by_team(adj_list, target_team)
