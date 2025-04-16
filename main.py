@@ -2,6 +2,9 @@ import pandas as pd
 import csv
 from collections import defaultdict
 from sklearn.preprocessing import MinMaxScaler
+import warnings
+
+warnings.filterwarnings('ignore')
 
 def clean_data(nba):
     # Extract the first four characters of the 'season' column, convert to integer
@@ -18,6 +21,24 @@ def clean_data(nba):
     rookies['net_rating'] = rookies['net_rating'].apply(lambda x: max(x, 0))
 
     return rookies
+
+def calc_composite_score(rookies):
+    # Ensure all values are numeric, filling NaNs with zero or an appropriate value if necessary
+    rookies.fillna(0, inplace=True)  # Or choose a strategy like rookies.fillna(rookies.mean(), inplace=True)
+
+    # Select only the columns to normalize
+    numeric_cols = ["pts", "reb", "ast", "net_rating", "ts_pct", "usg_pct"]
+    scaler = MinMaxScaler()
+
+    # Normalize the selected columns
+    normalized_vals = scaler.fit_transform(rookies[numeric_cols])
+    normalized_df = pd.DataFrame(normalized_vals, columns=numeric_cols)
+
+    # Ensure indices align between rookies and normalized_df
+    normalized_df.index = rookies.index
+
+    # Create a composite score by averaging the normalized values
+    rookies['composite_performance_score'] = normalized_df.mean(axis=1)
 
 def create_adj_list(data):
     # Create a dictionary of lists to store the adjacency list
@@ -54,7 +75,7 @@ def main():
 
     while response:
         # Prompt user for input
-        print("""1: Most successful colleges\n2: Determine average NBA rookie performance by college\n3: NBA draft history\n4: Exit""")
+        print("""1: Most successful colleges\n2: Determine average NBA rookie performance by college\n3: NBA draft history\n4: Exit\n""")
 
         # Error checking
         try:
@@ -73,6 +94,8 @@ def main():
 
         # Clean & prep our data
         rookies = clean_data(nba)
+        # Create normalized composite score
+        calc_composite_score(rookies)
         # Create network with an adjacency list
         adj_list = create_adj_list(rookies)
 
