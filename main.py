@@ -19,6 +19,22 @@ def clean_data(nba):
 
     return rookies
 
+def create_adj_list(data):
+    # Create a dictionary of lists to store the adjacency list
+    adjacency_list = defaultdict(list)
+
+    # Iterate over each row in the data
+    for index, row in data.iterrows():
+        college = row['college']
+        team = row['team_abbreviation']
+        player_name = row['player_name']
+        score = row["composite_performance_score"]
+
+        # Append the tuple the college's list
+        adjacency_list[college].append((team, player_name, score))
+
+    return adjacency_list
+
 def main():
     nba = pd.read_csv("all_seasons.csv")
 
@@ -57,6 +73,8 @@ def main():
 
         # Clean & prep our data
         rookies = clean_data(nba)
+        # Create network with an adjacency list
+        adj_list = create_adj_list(rookies)
 
         # Valid input resonses below
         if response == 1:
