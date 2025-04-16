@@ -16,13 +16,32 @@ def main():
         # (if given a goal team to attend, return colleges that will increase your odds)
 
     response = 1
+
     while response:
+        # Prompt user for input
         print("""1: Most successful colleges\n2: Determine average NBA rookie performance by college\n3: NBA draft history\n4: Exit""")
+
+        # Error checking
         try:
             response = int(input("Please input an option: "))
+        # If invalid input
         except ValueError:
             print("\nPlease input a valid input option\n")
-        if response == 4:
+        # Catch any other error
+        except Exception:
+            print("\nAn unexpected error occurred, please try again\n")
+        # If input is valid but out of scope
+        if response > 4 or response < 0:
+            print("\nPlease input a valid input option\n")
+
+        # Valid input resonses below
+        if response == 1:
+            pass
+        elif response == 2:
+            pass
+        elif response == 3:
+            pass
+        else:
             print("\nThank You!\n")
             break
 
