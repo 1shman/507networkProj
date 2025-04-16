@@ -1,4 +1,23 @@
 import pandas as pd
+import csv
+from collections import defaultdict
+from sklearn.preprocessing import MinMaxScaler
+
+def clean_data(nba):
+    # Extract the first four characters of the 'season' column, convert to integer
+    nba['season_year'] = nba['season'].str[:4].astype(int)
+
+    # Replace "undrafted" with 0 in the 'draft_year' column
+    nba['draft_year'] = nba['draft_year'].replace('Undrafted', 0)
+    nba['draft_year'] = nba['draft_year'].astype(int)
+
+    # Filter to extract all drafted rookies
+    rookies = nba[nba['draft_year'] == nba['season_year']]
+
+    # Replace negative net_rating values with 0
+    rookies['net_rating'] = rookies['net_rating'].apply(lambda x: max(x, 0))
+
+    return rookies
 
 def main():
     nba = pd.read_csv("all_seasons.csv")
@@ -33,6 +52,11 @@ def main():
         # If input is valid but out of scope
         if response > 4 or response < 0:
             print("\nPlease input a valid input option\n")
+
+        # It is assumed that data is valid from here onwards
+
+        # Clean & prep our data
+        rookies = clean_data(nba)
 
         # Valid input resonses below
         if response == 1:
