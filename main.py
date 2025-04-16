@@ -2,7 +2,6 @@ import pandas as pd
 from collections import defaultdict
 from sklearn.preprocessing import MinMaxScaler
 import warnings
-
 warnings.filterwarnings('ignore')
 
 def clean_data(nba):
@@ -161,7 +160,7 @@ def top_colleges_by_team(adjacency_list, target_team):
     # Iterate through dictionary
     for college, players in adjacency_list.items():
         # Iterate through list
-        for team, player, composite_score in players:
+        for team, _, _ in players:
             # If the team matches target_team, increment
             if team == target_team:
                 college_counts[college] += 1
@@ -222,7 +221,7 @@ def main():
     while True:
         response = 0
         # Prompt user for input
-        print("""\nPlease select an input:\n1: Most successful colleges\n2: Determine average NBA rookie performance by college\n3: NBA draft history\n4: Exit\n""")
+        print("""\nPlease select an input:\n1: NBA Draft Totals by College\n2: Average NBA rookie performance by college\n3: Draft Totals by NBA Team\n4: Exit\n""")
 
         # Error checking
         try:
