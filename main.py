@@ -131,7 +131,7 @@ def get_node_connections(adjacency_list):
     # Sort the colleges by the number of connections in descending order
     sorted_college_connections = sorted(college_connection_counts.items(), key=lambda x: x[1], reverse=True)
 
-    return sorted_college_connections
+    return sorted_college_connections[1:]
 
 def top_colleges_by_team(adjacency_list, target_team):
     """
@@ -169,7 +169,7 @@ def top_colleges_by_team(adjacency_list, target_team):
     # Sort the colleges
     sorted_colleges = sorted(college_counts.items(), key=lambda x: x[1], reverse=True)
 
-    return sorted_colleges
+    return sorted_colleges[1:]
 
 def calc_average_composite(adjacency_list):
     """
@@ -210,7 +210,10 @@ def calc_average_composite(adjacency_list):
         else:
             average_scores[college] = float('nan')  # Handle no players scenario
 
-    return average_scores
+    # Sort the average scores
+    sorted_average_scores = sorted(average_scores.items(), key=lambda x: x[1], reverse=True)
+
+    return sorted_average_scores
 
 def main():
     # Read in data
@@ -252,9 +255,9 @@ def main():
             for node, count in sorted_nodes_with_connections:
                 print(f"'{node}': {count}")
         elif response == 2:
-            # Calculate and print average composite scores for each college
-            average_scores = calc_average_composite(adj_list)
-            for college, avg_score in average_scores.items():
+            # Calculate and sort average composite scores
+            sorted_scores = calc_average_composite(adj_list)
+            for college, avg_score in sorted_scores:
                 print(f"{college}: {avg_score:.4f}")
         elif response == 3:
             target_team = input("Enter NBA three letter team code: ")
